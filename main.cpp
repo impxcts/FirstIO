@@ -10,8 +10,8 @@ int main(){
   cin >> input;
 
   if( input == "help" ){
-    cout << "Hi!\n";
-    cout << "Options:\nadd\nsubtract\nmultiply\ndivide\nhelp\nquit\n";
+    cout << "Hi! Nice to meet you!\n";
+    cout << "Here Are Your Options:\nadd\nsubtract\nmultiply\ndivide\nhelp\nquit\n";
   }
   else if( input == "add" || input == "subtract" || input == "multiply" || input == "divide"){
     cout << "First number: ";
